@@ -1,6 +1,6 @@
 <?php
-require_once(dirname(dirname(__FILE__)) . "/include/connection.php");
-include_once(dirname(dirname(__FILE__)) . "/include/get_data.php");
+require_once("../include/connection.php");
+include_once("../include/get_data.php");
 
 	$uid = $arr['uid'];
 	$tid = $arr['tid'];
@@ -31,11 +31,11 @@ include_once(dirname(dirname(__FILE__)) . "/include/get_data.php");
 		$comment = $rs_arr4[0]['comment'];
 		$star_level = $rs_arr4[0]['star_level'];
 
-		$return_arr = ["uid"=>$uid, "tid"=>$tid, "real_time"=>$real_time, "rest_time"=>$rest_time, "tname"=>$tname, "picture_start"=>$picture_start, "picture_end"=>$picture_end,
+		$return_arr = array("uid"=>$uid, "tid"=>$tid, "real_time"=>$real_time, "rest_time"=>$rest_time, "tname"=>$tname, "picture_start"=>$picture_start, "picture_end"=>$picture_end,
 
-						"comment"=>$comment, "star_level"=>$star_level];
+						"comment"=>$comment, "star_level"=>$star_level);
 
-        include_once(dirname(dirname(__FILE__)) . "/include/return_data.php");
+        include_once("../include/return_data.php");
 	}else{
         echo json_encode(0);
 	}

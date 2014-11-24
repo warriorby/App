@@ -1,7 +1,6 @@
 <?php
-	require_once("connection.php");
-
-	$arr = $_POST["data"];
+require_once(dirname(dirname(__FILE__)) . "/include/connection.php");
+include_once(dirname(dirname(__FILE__)) . "/include/get_data.php");
 
 	$uid = $arr['uid'];
 	$start = $arr['start'];
@@ -13,9 +12,8 @@
 		$rs = $db->query($sql);
 		$return_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
 
-		print_r($return_arr);
-		echo $return_arr;
+        include_once(dirname(dirname(__FILE__)) . "/include/return_data.php");
 	}else{
-		echo 0;
+        echo json_encode(0);
 	}
 ?>

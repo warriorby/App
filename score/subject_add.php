@@ -1,7 +1,6 @@
 <?php
-	require_once("connection.php");
-
-	$arr = $_POST["data"];
+require_once("../include/connection.php");
+include_once("../include/get_data.php");
 
 	$uid = $arr['uid'];
 	$subject = $arr['subject'];
@@ -14,9 +13,8 @@
 
 		$return_arr = ["uid"=>$uid, "$sub_id"=>$sub_id];
 
-		print_r($return_arr);
-		echo $return_arr;
+        include_once("../include/return_data.php");
 	}else{
-		echo 0;
+        echo json_encode(0);
 	}
 ?>

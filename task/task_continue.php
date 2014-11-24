@@ -1,6 +1,6 @@
 <?php
-require_once(dirname(dirname(__FILE__)) . "/include/connection.php");
-include_once(dirname(dirname(__FILE__)) . "/include/get_data.php");
+require_once("../include/connection.php");
+include_once("../include/get_data.php");
 
 	$uid = $arr['uid'];
 	$tid =$arr['tid'];
@@ -15,22 +15,17 @@ include_once(dirname(dirname(__FILE__)) . "/include/get_data.php");
 		$rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
 		$pause_time = $rs_arr[0]['pause_time'];
 
-		//echo $pause_time."<br/>";
-
 		$pause_date = date("YmdHis",$pause_time);
 		$continue_date = date("YmdHis",$timestamp);
-
-		//echo $pause_date."<br/>";
-		//echo $continue_date."<br/>";
 
 		$rest_time = round((strtotime($continue_date)-strtotime($pause_date))/60);
 
 		$sql3 = "update task_main set rest_time = rest_time+$rest_time where uid = $uid and tid = $tid";
 		$db->exec($sql3);
 
-		$return_arr = ["uid"=>$uid, "tid"=>$tid, "rest_time"=>$rest_time];
+		$return_arr = array("uid"=>$uid, "tid"=>$tid);
 
-        include_once(dirname(dirname(__FILE__)) . "/include/return_data.php");
+        include_once("../include/return_data.php");
 	}else{
         echo json_encode(0);
 	}

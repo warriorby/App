@@ -1,7 +1,5 @@
 <?php
-    require_once(dirname(dirname(__FILE__))."/include/connection.php");
-
-   include_once(dirname(dirname(__FILE__))."/include/get_data.php");
+    require_once("../include/connection.php");
 
     $sql = "select * from city_list";
 
@@ -10,6 +8,6 @@
 
     $return_arr = $rs_arr;
 
-    include_once(dirname(dirname(__FILE__))."include/return_data.php");
+include_once("../include/return_data.php");
 
 

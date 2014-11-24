@@ -1,6 +1,6 @@
 <?php
-require_once(dirname(dirname(__FILE__)) . "/include/connection.php");
-include_once(dirname(dirname(__FILE__)) . "/include/get_data.php");
+require_once("../include/connection.php");
+include_once("../include/get_data.php");
 
 	$uid = $arr['uid'];
 
@@ -41,7 +41,7 @@ if( $uid != null){
 		$return_arr[] = $sub_arr3;
 	}
 
-    include_once(dirname(dirname(__FILE__)) . "/include/return_data.php");
+    include_once("../include/return_data.php");
 }else{
 	echo json_encode(0);
 }

@@ -1,6 +1,6 @@
 <?php
-require_once(dirname(dirname(__FILE__)) . "/include/connection.php");
-include_once(dirname(dirname(__FILE__)) . "/include/get_data.php");
+require_once("../include/connection.php");
+include_once("../include/get_data.php");
 
 $uid = $arr['uid'];
 $get_posts = $arr['posts'];
@@ -28,9 +28,9 @@ if ($uid != null) {
     $return_posts = count($rs_arr3[0]['post_url']);
     $return_expers = count($rs_arr3[0]['exper_content']);
 
-    $return_arr = ["uid" => $uid, "posts" => $return_posts, "expers" => $return_expers, "avatar" => $avatar, "real_name" => $real_name, "cid" => $cid, "sid" => $sid, "gid" => $gid, "classid" => $classid];
+    $return_arr =array("uid" => $uid, "posts" => $return_posts, "expers" => $return_expers, "avatar" => $avatar, "real_name_c" => $real_name, "cid" => $cid, "sid" => $sid, "gid" => $gid, "classid" => $classid);
 
-    include_once(dirname(dirname(__FILE__)) . "/include/return_data.php");
+    include_once("../include/return_data.php");
 } else {
     echo 0;
 }
