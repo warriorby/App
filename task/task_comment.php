@@ -9,12 +9,10 @@ include_once("../include/get_data.php");
 
 	if($tid != null && $uid != null){
 		$timestamp = mktime();
-		$sql = "insert into comment(tid,uid,star_level,comment,updated) values ($tid,$uid,$star_level,$comment,$timestamp)";
+		$sql = "update task_main set star_level=$star_level,comment=$comment,updated=$timestamp where uid=$uid and tid=$tid";
 		$db->exec($sql);
-		$comment_id = $db->lastInsertId();
 
-		$return_arr = array("tid"=>$tid,"uid"=>$uid,"comment_id"=>$comment_id);
-
+		$return_arr = array("tid"=>$tid,"uid"=>$uid,"star_level"=>$star_level,"comment"=>$comment);
         include_once("../include/return_data.php");
 
     }else{

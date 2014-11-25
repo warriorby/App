@@ -25,8 +25,8 @@ if ($tid != null && $uid != null) {
     $sql3 = "update task_main set real_time = $real_time where tid=$tid and uid=$uid";
     $db->exec($sql3);
 
-    $integral = ceil($real_time/10);
-    $sql4 = "update user_main set integral=integral+$integral where uid=$uid";
+    $gold = ceil($real_time/10);
+    $sql4 = "update user_main set gold=gold+$gold where uid=$uid";
     $db->exec($sql4);
 
     $return_arr = array("uid" => $uid, "tid" => $tid, "end_time" => $timestamp, "real_time" => $real_time, "rest_time" => $rest_time);

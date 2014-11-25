@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if(isset($_GET["data"])){
     $json_str=$_GET["data"];
 }else{
