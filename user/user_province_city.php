@@ -1,11 +1,10 @@
 <?php
 require_once("../include/connection.php");
-include_once("../include/get_data.php");
+include "../include/get_data.php";
 
-$uid = $arr['uid'];
-
-if ($uid != null) {
-    $sql = "select * from task_award where uid = $uid";
+$pid = $arr['pid'];
+if (isset($pid)) {
+    $sql = "select distinct cid,city from city_list where pid like '$pid'";
     $rs = $db->query($sql);
     $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
 
@@ -14,3 +13,5 @@ if ($uid != null) {
 } else {
     echo json_encode(0);
 }
+
+

@@ -5,7 +5,7 @@ include_once("../include/get_data.php");
 	$uid = $arr['uid'];
 
 	if($uid != null){
-		$sql = "select * from space_profile where uid=$uid";
+		$sql = "select * from space_exper where uid=$uid";
 		$rs = $db->query($sql);
 		$return_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
 

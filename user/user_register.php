@@ -66,7 +66,7 @@ if (count($rs4_arr)==0) {
             $db->exec("insert into user_log(uid,updated,descr) values ($uid_c,$timestamp,'c端注册')");
             $db->exec("insert into user_profile(uid,real_name) values ($uid_c,'$realName_c')");
             $db->exec("insert into user_education(uid,cid,zid,sid,gid,class_id,enter_year) values ($uid_c,'$cid','$zid','$sid','$gid','$class_id','$enter_year')");
-
+            $db->exec("insert into user_im_group(uid,group_sid,group_gid,group_classid) values ($uid_c,'$group_sid','$group_gid','$group_class_id')");
             $db->exec("insert into user_location(uid,updated) values ($uid_c,$timestamp)");
             $db->exec("insert into user_location_log(uid,position_x,position_y,updated) values ($uid_c,999,999,$timestamp)");
             $db->exec("insert into space_main(uid,updated) values ($uid_c,$timestamp)");

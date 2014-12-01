@@ -3,15 +3,14 @@ require_once("../include/connection.php");
 include_once("../include/get_data.php");
 
 	$uid = $arr['uid'];
-	$eid = $arr['eid'];
 	$exper_content = $arr['exper_content'];
 
-if($uid != null && $eid != null){
-	$timestamp = mktime();
-	$sql = "insert into space_profile(uid,eid,exper_content,exper_updated) values ($uid,$eid,'$exper_content',$timestamp)";
+if($uid != null && $exper_content != null){
+	$timestamp = time();
+	$sql = "insert into space_exper(uid,exper,updated) values ($uid,'$exper_content',$timestamp)";
 	$db->exec($sql);
 
-	$return_arr = array("uid"=>$uid,"eid"=>$eid,"exper_content"=>$exper_content);
+	$return_arr = array("uid"=>$uid,"exper_content"=>$exper_content);
 
     include_once("../include/return_data.php");
 }else{

@@ -1,22 +1,27 @@
 <?php
 require "../include/connection.php";
-include "../include/get_data.php";
+require "../include/get_data.php";
 
 	$uid = $arr['uid'];
-	$award = $arr['reward_content'];
-	$factor = $arr['reward_conditions'];
+	$award = $arr['award'];
+	$factor = $arr['factor'];
 
 	if($uid != null && $award != null && $factor != null){
 		$timestamp = time();
-       /* $database = new medoo();
-        $db_arr = ['uid'=>$uid,'award'=>$award,'factor'=>$factor,'updated'=>$timestamp];
-        $aid = $database->insert('task_award',$db_arr);*/
+        $sql2 = "select * from user_main where uid=$uid";
+        $rs2 = $db->query($sql2);
+        $rs2_arr = $rs2->fetchAll(PDO::FETCH_ASSOC);
+        $gold = $rs2_arr[0]['gold'];
 
-		$sql = "insert into task_award (uid,award,factor,updated) values ($uid,'$award',$factor,$timestamp)";
-		$db->exec($sql);
-		$aid =$db->lastInsertId();
+        if($gold <$factor){
+            $status = 1;
+        }else{
+            $status = 2;
+        }
+        $sql = "insert into task_award (uid,award,factor,status,updated) values ($uid,'$award',$factor,$status,$timestamp)";
+        $db->exec($sql);
 
-		$return_arr = array("uid"=>$uid, "aid"=>$aid);
+        $return_arr = array("uid"=>$uid, "award_id"=>$aid,"status"=>$status);
 
         include_once("../include/return_data.php");
 	}else{

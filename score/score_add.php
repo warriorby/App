@@ -14,7 +14,7 @@ if (isset($uid)) {
     $sql = "insert into score_main(sub_id,uid,score,average,total,exam_date) values ($sub_id,$uid,$score,$average,$total,'$exam_date')";
     $db->exec($sql);
     $score_id = $db->lastInsertId();
-    $return_arr = ["uid" => $uid, "score_id" => $score_id];
+    $return_arr = ["uid" => $uid, "score_id" => $score_id,"sub_id"=>$sub_id,"score"=>$score,"average"=>$average,"total"=>$total,"exam_data"=>$exam_date];
 
     include_once("../include/return_data.php");
 } else {

@@ -1,28 +1,35 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/connection.php");
+require("../include/get_data.php");
 
 	$uid = $arr['uid'];
-	//$status = $arr['status'];
-	//$count_get = $arr['count'];
+	$role = $arr['role'];
 
 	$return_arr = array();
+	if($uid != null && $role != null){
+        switch($role){
+            case 1:
+                $sql3 = "select * from user_relation where to_uid=$uid";
+                $rs3 = $db->query($sql3);
+                $rs3_arr = $rs3->fetchAll(PDO::FETCH_ASSOC);
+                $uid_c = $rs3_arr[0]['uid_c'];
+                $sql = "select * from task_main where uid=$uid_c and date(FROM_UNIXTIME(start_time)) = curdate()";
+                $rs = $db->query($sql);
+                $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
+                $return_arr = $rs_arr;
+                break;
+            case 2:
+                $sql = "select * from task_main where uid=$uid and date(FROM_UNIXTIME(start_time)) = curdate()";
+                $rs = $db->query($sql);
+                $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
+                $return_arr = $rs_arr;
+                break;
+            default:
+                echo json_encode(0);
+                break;
+        }
 
-	if(isset($uid)){
-		$sql = "select * from task_main where uid=$uid and date(FROM_UNIXTIME(start_time)) = curdate()";
-		$rs = $db->query($sql);
-
-		/*foreach($rs as $row){
-			$sub_arr = array();
-			$sub_arr['uid']=$row['uid'];
-
-			$return_arr[] = $sub_arr;
-			$count_return=count($sub_arr['uid']);
-		}*/
-        $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
-        $return_arr = $rs_arr;
-
-        include_once("../include/return_data.php");
+        include("../include/return_data.php");
 	}else{
         echo json_encode(0);
 	}

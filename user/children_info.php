@@ -1,19 +1,21 @@
 <?php
 require_once("../include/connection.php");
 include_once("../include/get_data.php");
+include "../include/upload_dir.php";
 
 $uid = $arr['uid'];
 $get_posts = $arr['posts'];
 $get_expers = $arr['expers'];
 
 if ($uid != null) {
-    $sql = "select * from space_main where uid=$uid";
+    $sql = "select * from user_avatar where uid=$uid";
     $sql2 = "select * from user_profile where uid=$uid";
     $sql3 = "select * from space_profile where uid=$uid";
 
     $rs = $db->query($sql);
     $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
     $avatar = $rs_arr[0]['avatar'];
+    $avatar_url = $avatar_upload.$avatar;
 
     $rs2 = $db->query($sql2);
     $rs_arr2 = $rs2->fetchAll(PDO::FETCH_ASSOC);
@@ -28,7 +30,7 @@ if ($uid != null) {
     $return_posts = count($rs_arr3[0]['post_url']);
     $return_expers = count($rs_arr3[0]['exper_content']);
 
-    $return_arr =array("uid" => $uid, "posts" => $return_posts, "expers" => $return_expers, "avatar" => $avatar, "real_name_c" => $real_name, "cid" => $cid, "sid" => $sid, "gid" => $gid, "classid" => $classid);
+    $return_arr =array("uid" => $uid, "posts" => $return_posts, "expers" => $return_expers, "avatar_url" => $avatar_url, "real_name_c" => $real_name, "cid" => $cid, "sid" => $sid, "gid" => $gid, "classid" => $classid);
 
     include_once("../include/return_data.php");
 } else {

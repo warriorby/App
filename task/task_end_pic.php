@@ -5,7 +5,7 @@ include_once("../include/upload_dir.php");
 
 $uid = $arr['uid'];
 $tid = $arr['tid'];
-$photo_status = $arr['photo_status'];
+$photo_status = $arr['needPhoto'];
 
 if (!file_exists($img_upload)) {
     mkdir("$img_upload", 0777);
@@ -25,7 +25,7 @@ if ($_FILES["filename"]["name"]) {
     $img_extension = pathinfo($img_name, PATHINFO_EXTENSION);
 
     $timestamp = mktime();
-    $img_new_name = $uid . $timestamp . "@P" . $img_extension;
+    $img_new_name = $uid . $timestamp . "@T" . $img_extension;
     $img_url = $img_upload . $img_new_name;
     move_uploaded_file($_FILES["filename"]["tmp_name"], $img_url);
 

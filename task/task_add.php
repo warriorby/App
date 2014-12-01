@@ -1,6 +1,6 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/connection.php");
+require("../include/get_data.php");
 
 $task_type = $arr['task_type'];
 $task = $arr['task_name'];
@@ -21,7 +21,7 @@ if (count($arr) != 0) {
     $db->exec("insert into task_log(uid,tid,descr,updated) values ($uid,$tid,'添加任务',$timestamp)");
 
     $return_arr = array("uid" => $uid, "tid" => $tid);
-    include_once("../include/return_data.php");
+    include("../include/return_data.php");
 }else{
     echo json_encode(0);
 }

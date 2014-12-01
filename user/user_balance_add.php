@@ -4,7 +4,7 @@ include_once("../include/get_data.php");
 
 $uid = $arr['uid'];
 $role = $arr['role'];
-$type = $arr['type']; //1:30/月；2:168/半年；3:298/一年
+$type = $arr['balance_type']; //0:30/月；1:168/半年；2:298/一年
 
 if ($uid != null && $role != null && $type != null) {
     switch ($type) {

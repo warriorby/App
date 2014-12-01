@@ -5,7 +5,7 @@ include_once("../include/get_data.php");
 $uid = $arr['uid'];
 
 if ($uid != null) {
-    $timestamp = mktime();
+    $timestamp = time();
     $sql2 = "select * from user_location_log where uid=$uid ";
 
     $rs=$db->query($sql2);

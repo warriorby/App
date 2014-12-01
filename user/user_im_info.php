@@ -23,7 +23,7 @@ foreach($arr as $row){
 
     $sub_arr["uid"]=$uid;
     $sub_arr["nickname"]=$real_name;
-   // $sub_arr["img_url"]=$avatar_url;
+   // $sub_arr["avatar_url"]=$avatar_url;
     $result_arr[]=$sub_arr;
 }
     $return_arr = $result_arr;

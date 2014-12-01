@@ -1,6 +1,6 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/connection.php");
+require("../include/get_data.php");
 
 	$tid = $arr['tid'];
 	$uid = $arr['uid'];
@@ -13,8 +13,7 @@ include_once("../include/get_data.php");
 		$db->exec($sql);
 
 		$return_arr = array("tid"=>$tid,"uid"=>$uid,"star_level"=>$star_level,"comment"=>$comment);
-        include_once("../include/return_data.php");
-
+        include("../include/return_data.php");
     }else{
         echo json_encode(0);
     }

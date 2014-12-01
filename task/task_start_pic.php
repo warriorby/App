@@ -25,7 +25,7 @@ if ($_FILES["filename"]["name"]) {
     $img_extension = pathinfo($img_name, PATHINFO_EXTENSION);
 
     $timestamp = mktime();
-    $img_new_name = $uid . $timestamp . "@P" . $img_extension;
+    $img_new_name = $uid . $timestamp . "@T" . $img_extension;
     $img_url = $img_upload . $img_new_name;
     move_uploaded_file($_FILES["filename"]["tmp_name"], $img_url);
 

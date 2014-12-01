@@ -19,7 +19,7 @@ class REST {
 	private $ServerPort;
 	private $SoftVersion;
 	private $Batch;  //时间戳
-	private $BodyType = "xml";//包体格式，可填值：json 、xml
+	private $BodyType = "json";//包体格式，可填值：json 、xml
 	private $enabeLog = true; //日志开关。可填值：true、
 	private $Filename="./log.txt"; //日志文件
 	private $Handle; 

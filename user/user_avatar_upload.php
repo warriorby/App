@@ -7,7 +7,7 @@ include_once("../include/upload_dir.php");
 $uid = $arr['uid'];
 
 if (!file_exists($avatar_upload)) {
-    mkdir("$avatar_upload", 0777);
+    mkdir($avatar_upload, 0700);
 }
 $file_types = array('image/pjpeg', 'image/jpeg', 'image/jpg', 'image/gif', 'image/png', 'image/x-png');
 

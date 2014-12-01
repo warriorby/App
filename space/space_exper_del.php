@@ -6,7 +6,7 @@ include_once("../include/get_data.php");
 	$eid = $arr['eid'];
 
 	if($uid != null && $eid != null){
-		$sql = "delete from space_profile where uid=$uid and eid=$eid";
+		$sql = "delete from space_exper where uid=$uid and eid=$eid";
 		$db->exec($sql);
 
 		$return_arr =array("uid"=>$uid);

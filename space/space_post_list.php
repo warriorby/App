@@ -1,18 +1,15 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/connection.php");
+require("../include/get_data.php");
 
-	$uid = $arr['uid'];
+$uid = $arr['uid'];
+if ($uid != null) {
+    $sql = "select * from space_post where uid=$uid";
+    $rs = $db->query($sql);
+    $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
 
-
-	if($uid != null){
-		$sql = "select * from space_profile where uid=$uid";
-
-		$rs = $db->query($sql);
-
-		$return_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
-
-        include_once("../include/return_data.php");
-	}else{
-        echo json_encode(0);
-	}
+    $return_arr = $rs_arr;
+    require("../include/return_data.php");
+} else {
+    echo json_encode(0);
+}
