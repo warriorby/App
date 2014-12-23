@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/im/testeasemob.php" line="384" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bfe158-0b65-4620-805c-0a897303e18b" name="Default" comment="" />
+    <list default="true" id="23bfe158-0b65-4620-805c-0a897303e18b" name="Default" comment="MyHome 0.2.0 version">
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\BOM_del.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\score\subject_add.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\upload_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\uploads\post\1417414404@P.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\uploads\post\1417414419@P.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\uploads\post\1417414658@P.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\uploads\post\1417414659@P.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\uploads\post\1417414731@P.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\uploads\post\1417414835@P.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\user\log.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\user\user_class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\app2\user\user_grade.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app.iml" afterPath="$PROJECT_DIR$/.idea/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/children_info.php" afterPath="$PROJECT_DIR$/user/children_info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/children_location_add.php" afterPath="$PROJECT_DIR$/user/children_location_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/children_location_info.php" afterPath="$PROJECT_DIR$/user/children_location_info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/connection.php" afterPath="$PROJECT_DIR$/include/connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/get_data.php" afterPath="$PROJECT_DIR$/include/get_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/medoo.php" afterPath="$PROJECT_DIR$/include/medoo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/past/my_growth.php" afterPath="$PROJECT_DIR$/past/my_growth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/past/my_reflection.php" afterPath="$PROJECT_DIR$/past/my_reflection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/score/score_add.php" afterPath="$PROJECT_DIR$/score/score_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/score/score_del.php" afterPath="$PROJECT_DIR$/score/score_del.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/score/score_filter.php" afterPath="$PROJECT_DIR$/score/score_filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/score/score_list.php" afterPath="$PROJECT_DIR$/score/score_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/send_sms.php" afterPath="$PROJECT_DIR$/user/send_sms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server_test.php" afterPath="$PROJECT_DIR$/server_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/space/space_exper_add.php" afterPath="$PROJECT_DIR$/space/space_exper_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/space/space_exper_del.php" afterPath="$PROJECT_DIR$/space/space_exper_del.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/space/space_exper_list.php" afterPath="$PROJECT_DIR$/space/space_exper_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/space/space_post_add.php" afterPath="$PROJECT_DIR$/space/space_post_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/space/space_post_add2.php" afterPath="$PROJECT_DIR$/space/space_post_add2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/space/space_post_del.php" afterPath="$PROJECT_DIR$/space/space_post_del.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/space/space_post_list.php" afterPath="$PROJECT_DIR$/space/space_post_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_add.php" afterPath="$PROJECT_DIR$/task/task_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_award_add.php" afterPath="$PROJECT_DIR$/task/task_award_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_award_list.php" afterPath="$PROJECT_DIR$/task/task_award_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_award_true.php" afterPath="$PROJECT_DIR$/task/task_award_true.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_comment.php" afterPath="$PROJECT_DIR$/task/task_comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_completed_detail.php" afterPath="$PROJECT_DIR$/task/task_completed_detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_continue.php" afterPath="$PROJECT_DIR$/task/task_continue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_del.php" afterPath="$PROJECT_DIR$/task/task_del.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_edit.php" afterPath="$PROJECT_DIR$/task/task_edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_end.php" afterPath="$PROJECT_DIR$/task/task_end.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_end_pic.php" afterPath="$PROJECT_DIR$/task/task_end_pic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_giveup.php" afterPath="$PROJECT_DIR$/task/task_giveup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_list.php" afterPath="$PROJECT_DIR$/task/task_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_nostart_list.php" afterPath="$PROJECT_DIR$/task/task_nostart_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_pause.php" afterPath="$PROJECT_DIR$/task/task_pause.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_start.php" afterPath="$PROJECT_DIR$/task/task_start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_start_pic.php" afterPath="$PROJECT_DIR$/task/task_start_pic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task_type_list.php" afterPath="$PROJECT_DIR$/task/task_type_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/past/time_allocation.php" afterPath="$PROJECT_DIR$/past/time_allocation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/past/time_control.php" afterPath="$PROJECT_DIR$/past/time_control.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/upload_dir.php" afterPath="$PROJECT_DIR$/include/upload_dir.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_avatar_upload.php" afterPath="$PROJECT_DIR$/user/user_avatar_upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_balance.php" afterPath="$PROJECT_DIR$/user/user_balance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_balance_add.php" afterPath="$PROJECT_DIR$/user/user_balance_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_city_zone.php" afterPath="$PROJECT_DIR$/user/user_city_zone.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_im_info.php" afterPath="$PROJECT_DIR$/user/user_im_info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_im_infoDetail.php" afterPath="$PROJECT_DIR$/user/user_im_infoDetail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_im_register.php" afterPath="$PROJECT_DIR$/user/user_im_register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_login.php" afterPath="$PROJECT_DIR$/user/user_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_login_judge.php" afterPath="$PROJECT_DIR$/user/user_login_judge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_loginout.php" afterPath="$PROJECT_DIR$/user/user_loginout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_province.php" afterPath="$PROJECT_DIR$/user/user_province.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_province_city.php" afterPath="$PROJECT_DIR$/user/user_province_city.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_register.php" afterPath="$PROJECT_DIR$/user/user_register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user_zone_school.php" afterPath="$PROJECT_DIR$/user/user_zone_school.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/past/week_efficiency.php" afterPath="$PROJECT_DIR$/past/week_efficiency.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,25 +99,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task_list.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task/task_list.php">
+      <file leaf-file-name="children_info.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/children_info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="22" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.7760532" vertical-offset="0" max-vertical-offset="1148">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="812">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_zone_school.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/user_zone_school.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week_efficiency.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/past/week_efficiency.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="49" selection-start="1202" selection-end="1202" vertical-scroll-proportion="-18.967741" vertical-offset="168" max-vertical-offset="1176">
               <folding>
-                <marker date="1417157408138" expanded="true" signature="254:299" placeholder="select * fro..user_relation..." />
-                <marker date="1417157408138" expanded="true" signature="476:564" placeholder="select * fro..task_main..." />
-                <marker date="1417157408138" expanded="true" signature="772:858" placeholder="select * fro..task_main..." />
+                <marker date="1419315211513" expanded="true" signature="183:295" placeholder="select * fro..task_main..." />
+                <marker date="1419315211513" expanded="true" signature="609:730" placeholder="select * fro..task_main..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="space_post_list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/space/space_post_list.php">
+      <file leaf-file-name="my_growth.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/past/my_growth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="42" selection-start="320" selection-end="320" vertical-scroll-proportion="-9.935484" vertical-offset="0" max-vertical-offset="588">
+            <state line="23" column="5" selection-start="890" selection-end="890" vertical-scroll-proportion="1.0989761" vertical-offset="0" max-vertical-offset="980">
               <folding>
-                <marker date="1417416503679" expanded="true" signature="133:172" placeholder="select * fro..space_post..." />
+                <marker date="1419317429125" expanded="true" signature="183:295" placeholder="select * fro..task_main..." />
               </folding>
             </state>
           </provider>
@@ -54,60 +147,67 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="xjwan" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/include/return_data.php" />
-        <option value="$PROJECT_DIR$/include/connection.php" />
-        <option value="$PROJECT_DIR$/task/task_end.php" />
-        <option value="$PROJECT_DIR$/task/task_edit.php" />
-        <option value="$PROJECT_DIR$/task/task_completed_list.php" />
-        <option value="$PROJECT_DIR$/include/send_sms.php" />
-        <option value="$PROJECT_DIR$/include/CCPRestSmsSDK.php" />
-        <option value="$PROJECT_DIR$/include/SendTemplateSMS.php" />
-        <option value="$PROJECT_DIR$/user/user_city.php" />
-        <option value="$PROJECT_DIR$/user/user_city_school.php" />
-        <option value="$PROJECT_DIR$/user/user_zone_school.php" />
-        <option value="$PROJECT_DIR$/user/user_balance_add.php" />
-        <option value="$PROJECT_DIR$/user/user_avatar_upload.php" />
-        <option value="$PROJECT_DIR$/user/user_im_info.php" />
-        <option value="$PROJECT_DIR$/task/task_award_true.php" />
-        <option value="$PROJECT_DIR$/user/children_location_info.php" />
-        <option value="$PROJECT_DIR$/user/children_info.php" />
-        <option value="$PROJECT_DIR$/user/user_province.php" />
-        <option value="$PROJECT_DIR$/user/user_province_city.php" />
-        <option value="$PROJECT_DIR$/user/user_city_zone.php" />
-        <option value="$PROJECT_DIR$/task/task_end_pic.php" />
-        <option value="$PROJECT_DIR$/task/task_start_pic.php" />
-        <option value="$PROJECT_DIR$/user/user_register.php" />
-        <option value="$PROJECT_DIR$/space/space_exper_del.php" />
-        <option value="$PROJECT_DIR$/space/space_exper_list.php" />
-        <option value="$PROJECT_DIR$/space/space_post_del.php" />
-        <option value="$PROJECT_DIR$/space/space_exper_add.php" />
-        <option value="$PROJECT_DIR$/include/sendSms.php" />
-        <option value="$PROJECT_DIR$/score/score_list.php" />
-        <option value="$PROJECT_DIR$/task/task_award_list.php" />
-        <option value="$PROJECT_DIR$/task/task_award_add.php" />
-        <option value="$PROJECT_DIR$/user/send_sms.php" />
-        <option value="$PROJECT_DIR$/score/subject_add.php" />
-        <option value="$PROJECT_DIR$/score/score_add.php" />
-        <option value="$PROJECT_DIR$/task/task_nostart_list.php" />
+        <option value="$PROJECT_DIR$/include/func.php" />
+        <option value="$PROJECT_DIR$/tool/upload_test.php" />
+        <option value="$PROJECT_DIR$/task/task_start_pic2.php" />
+        <option value="$PROJECT_DIR$/task/task_end_pic2.php" />
+        <option value="$PROJECT_DIR$/include/medoo.php" />
+        <option value="$PROJECT_DIR$/include/conn.php" />
         <option value="$PROJECT_DIR$/server_test.php" />
-        <option value="$PROJECT_DIR$/past/my_growth.php" />
-        <option value="$PROJECT_DIR$/past/time_control.php" />
-        <option value="$PROJECT_DIR$/past/time_allocation.php" />
-        <option value="$PROJECT_DIR$/task/task_list.php" />
-        <option value="$PROJECT_DIR$/task/task_completed_detail.php" />
-        <option value="$PROJECT_DIR$/task/task_comment.php" />
+        <option value="$PROJECT_DIR$/IM/im-group.php" />
+        <option value="$PROJECT_DIR$/tool/oleread.php" />
+        <option value="$PROJECT_DIR$/tool/reader.php" />
+        <option value="$PROJECT_DIR$/user/user_province.php" />
+        <option value="$PROJECT_DIR$/user/user_im_infoDetail.php" />
+        <option value="$PROJECT_DIR$/im/im-group.php" />
+        <option value="$PROJECT_DIR$/user/user_province_city.php" />
+        <option value="$PROJECT_DIR$/user/user_register.php" />
+        <option value="$PROJECT_DIR$/task/task_edit.php" />
+        <option value="$PROJECT_DIR$/user/user_zone_school.php" />
+        <option value="$PROJECT_DIR$/include/connection.php" />
+        <option value="$PROJECT_DIR$/tool/excel-import.php" />
+        <option value="$PROJECT_DIR$/user/children_location_info.php" />
+        <option value="$PROJECT_DIR$/task/task_award_list.php" />
+        <option value="$PROJECT_DIR$/task/task_award_get.php" />
+        <option value="$PROJECT_DIR$/task/task_award_true.php" />
+        <option value="$PROJECT_DIR$/user/user_addInfo.php" />
+        <option value="$PROJECT_DIR$/task/task_start.php" />
+        <option value="$PROJECT_DIR$/task/task_end.php" />
+        <option value="$PROJECT_DIR$/task/noType_task_add.php" />
+        <option value="$PROJECT_DIR$/task/noType_task_end.php" />
         <option value="$PROJECT_DIR$/task/task_add.php" />
+        <option value="$PROJECT_DIR$/user/user_login.php" />
+        <option value="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" />
+        <option value="$PROJECT_DIR$/push/easy-push.php" />
+        <option value="$PROJECT_DIR$/push/ValidateExample.php" />
+        <option value="$PROJECT_DIR$/task/task_comment.php" />
+        <option value="$PROJECT_DIR$/task/task_nostart_list.php" />
+        <option value="$PROJECT_DIR$/task/task_list.php" />
+        <option value="$PROJECT_DIR$/task/task_giveup.php" />
+        <option value="$PROJECT_DIR$/task/task_completed_detail.php" />
+        <option value="$PROJECT_DIR$/user/user_intergral.php" />
+        <option value="$PROJECT_DIR$/task/task_award_add.php" />
+        <option value="$PROJECT_DIR$/push/fullpush.php" />
+        <option value="$PROJECT_DIR$/push/jpush.log" />
+        <option value="$PROJECT_DIR$/push/PushExample.php" />
+        <option value="$PROJECT_DIR$/push/push_test.php" />
+        <option value="$PROJECT_DIR$/past/time_control.php" />
         <option value="$PROJECT_DIR$/past/my_reflection.php" />
-        <option value="$PROJECT_DIR$/include/get_data.php" />
-        <option value="$PROJECT_DIR$/include/upload_dir.php" />
+        <option value="$PROJECT_DIR$/user/user_im_register.php" />
+        <option value="$PROJECT_DIR$/tool/test.php" />
+        <option value="$PROJECT_DIR$/past/time_allocation.php" />
         <option value="$PROJECT_DIR$/past/week_efficiency.php" />
-        <option value="$PROJECT_DIR$/upload_test.php" />
-        <option value="$PROJECT_DIR$/space/space_post_add2.php" />
-        <option value="$PROJECT_DIR$/space/space_post_add.php" />
-        <option value="$PROJECT_DIR$/space/space_post_list.php" />
+        <option value="$PROJECT_DIR$/past/my_growth.php" />
       </list>
     </option>
   </component>
@@ -124,7 +224,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -156,7 +256,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,7 +271,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -182,136 +281,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="space" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="score" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="past" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
+              <option name="myItemId" value="app2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="Configurable.PHP.Debug.SkippedPaths" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Git/cmd/git.exe" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\app\include" />
+      <recent name="D:\xampp\htdocs\app2" />
+      <recent name="D:\xampp\htdocs\app2\push" />
+      <recent name="D:\xampp\htdocs\app2\task" />
+      <recent name="D:\xampp\htdocs\app2\tool" />
+      <recent name="D:\xampp\htdocs\app2\other" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\app2\push" />
+      <recent name="D:\xampp\htdocs\app2\tool" />
       <recent name="D:\xampp\htdocs\app\user" />
       <recent name="D:\xampp\htdocs\app" />
     </key>
@@ -409,21 +414,42 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -450,300 +476,327 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="MyHome 0.2.0 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyHome 0.2.0 version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/im/Easemob.class.php</url>
+          <line>358</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task/task_end_pic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="43" selection-start="778" selection-end="778" vertical-scroll-proportion="0.2549889" vertical-offset="526" max-vertical-offset="1680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user_im_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="770" selection-end="770" vertical-scroll-proportion="0.7239468" vertical-offset="47" max-vertical-offset="980" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user_register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="89" selection-start="3025" selection-end="3025" vertical-scroll-proportion="0.0" vertical-offset="1484" max-vertical-offset="2548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user_province.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="188" selection-end="188" vertical-scroll-proportion="-6.322581" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user_province_city.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="350" selection-end="350" vertical-scroll-proportion="-9.935484" vertical-offset="0" max-vertical-offset="644" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user_city_zone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="118" selection-end="118" vertical-scroll-proportion="-4.516129" vertical-offset="0" max-vertical-offset="616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/space/space_post_del.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="43" selection-start="614" selection-end="614" vertical-scroll-proportion="-18.064516" vertical-offset="0" max-vertical-offset="896" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/space/space_exper_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="482" selection-end="482" vertical-scroll-proportion="0.49667406" vertical-offset="0" max-vertical-offset="902" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/space/space_exper_del.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="287" selection-end="287" vertical-scroll-proportion="0.34146342" vertical-offset="0" max-vertical-offset="902" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/space/space_exper_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="58" selection-start="184" selection-end="184" vertical-scroll-proportion="0.2172949" vertical-offset="0" max-vertical-offset="902" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/CCPRestSmsSDK.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="5" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.49667406" vertical-offset="2520" max-vertical-offset="6020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/sendSms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="385" selection-end="385" vertical-scroll-proportion="-8.129032" vertical-offset="0" max-vertical-offset="476" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/task_award_true.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/send_sms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="211" selection-end="211" vertical-scroll-proportion="0.2172949" vertical-offset="0" max-vertical-offset="902" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/score/subject_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="46" selection-start="440" selection-end="440" vertical-scroll-proportion="0.46563193" vertical-offset="0" max-vertical-offset="902" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/HttpClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="28" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="1204" max-vertical-offset="9632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/task_award_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="338" selection-end="338" vertical-scroll-proportion="0.37250555" vertical-offset="0" max-vertical-offset="902" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="839" selection-end="839" vertical-scroll-proportion="0.46456692" vertical-offset="231" max-vertical-offset="2212">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/score/score_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="47" selection-start="685" selection-end="685" vertical-scroll-proportion="0.5587583" vertical-offset="0" max-vertical-offset="902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server_test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="325" selection-end="336" vertical-scroll-proportion="0.49667406" vertical-offset="0" max-vertical-offset="902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/past/time_control.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="767" selection-end="767" vertical-scroll-proportion="0.49667406" vertical-offset="84" max-vertical-offset="1400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/past/time_allocation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="307" selection-end="307" vertical-scroll-proportion="-3.8188977" vertical-offset="3675" max-vertical-offset="4564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/task_nostart_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="56" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.49667406" vertical-offset="504" max-vertical-offset="1624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/score/score_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="979" selection-end="979" vertical-scroll-proportion="0.8137472" vertical-offset="106" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/task_completed_detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.3464567" vertical-offset="756" max-vertical-offset="2156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/task_comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="186" selection-end="186" vertical-scroll-proportion="0.2172949" vertical-offset="0" max-vertical-offset="902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/task_award_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="13" selection-end="13" vertical-scroll-proportion="-0.0" vertical-offset="28" max-vertical-offset="980">
-          <folding />
-        </state>
+        <state line="2" column="35" selection-start="73" selection-end="73" vertical-scroll-proportion="-1.8064516" vertical-offset="0" max-vertical-offset="924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task/task_continue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="131" selection-end="131" vertical-scroll-proportion="0.041019958" vertical-offset="103" max-vertical-offset="1036">
+        <state line="18" column="48" selection-start="580" selection-end="580" vertical-scroll-proportion="-16.258064" vertical-offset="0" max-vertical-offset="1036" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/chilren_imReg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="42" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.80709535" vertical-offset="0" max-vertical-offset="1036" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="74" selection-start="596" selection-end="596" vertical-scroll-proportion="0.031042129" vertical-offset="0" max-vertical-offset="4648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Conf/convention_sae.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Conf/debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Conf/Mode/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="63" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.71396893" vertical-offset="0" max-vertical-offset="2128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/noType_task_end.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="176" selection-end="176" vertical-scroll-proportion="0.22047244" vertical-offset="0" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/noType_task_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="106" selection-start="471" selection-end="471" vertical-scroll-proportion="0.37250555" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="51" selection-start="808" selection-end="808" vertical-scroll-proportion="-1.5210643" vertical-offset="1764" max-vertical-offset="40740" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="26" selection-start="848" selection-end="848" vertical-scroll-proportion="0.46563193" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/Application/Common/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/ThinkPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="64" selection-start="1820" selection-end="1820" vertical-scroll-proportion="-0.7694013" vertical-offset="1702" max-vertical-offset="2604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/Application/Common/Common/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Mode/Api/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.3769403" vertical-offset="3948" max-vertical-offset="29512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Mode/Api/App.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Mode/Api/Dispatcher.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.9800444" vertical-offset="2688" max-vertical-offset="6440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Mode/Api/Controller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7627494" vertical-offset="1590" max-vertical-offset="2492" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Library/Vendor/TemplateLite/class.compiler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="32" selection-start="5212" selection-end="5212" vertical-scroll-proportion="0.40354767" vertical-offset="4200" max-vertical-offset="9520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thinkphp/Application/Runtime/Logs/Home/14_12_22.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/task_end.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="461" selection-end="461" vertical-scroll-proportion="0.37250555" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/task_award_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/past/my_growth.php">
+    <entry file="file://$PROJECT_DIR$/task/task_award_get.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="225" selection-end="420" vertical-scroll-proportion="-5.709677" vertical-offset="187" max-vertical-offset="1960">
+        <state line="15" column="1" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/task_award_true.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="570" selection-end="570" vertical-scroll-proportion="0.44094488" vertical-offset="84" max-vertical-offset="2800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/task_award_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="72" selection-start="431" selection-end="431" vertical-scroll-proportion="0.34146342" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user_intergral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.16129" vertical-offset="257" max-vertical-offset="2884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="-6.064516" vertical-offset="232" max-vertical-offset="1820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="278" column="0" selection-start="8416" selection-end="8416" vertical-scroll-proportion="0.33333334" vertical-offset="7372" max-vertical-offset="10752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/fullpush.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.062084258" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/jpush.log">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="32" selection-start="21545" selection-end="21545" vertical-scroll-proportion="0.90604025" vertical-offset="3054" max-vertical-offset="4060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/ReportExample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6518847" vertical-offset="588" max-vertical-offset="3724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/push_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="29" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.75166297" vertical-offset="610" max-vertical-offset="1848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push/PushExample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="50" selection-start="3159" selection-end="3174" vertical-scroll-proportion="-0.2172949" vertical-offset="2492" max-vertical-offset="4172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user_im_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="55" selection-start="559" selection-end="559" vertical-scroll-proportion="0.5343681" vertical-offset="50" max-vertical-offset="1372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user_addInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="69" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.37915742" vertical-offset="582" max-vertical-offset="1568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="31" selection-start="3547" selection-end="3547" vertical-scroll-proportion="1.3228346" vertical-offset="588" max-vertical-offset="2072">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/past/my_reflection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="54" selection-start="934" selection-end="934" vertical-scroll-proportion="-15.548388" vertical-offset="218" max-vertical-offset="1120">
+        <state line="2" column="7" selection-start="44" selection-end="44" vertical-scroll-proportion="0.062084258" vertical-offset="0" max-vertical-offset="902">
+          <folding>
+            <marker date="1419301823048" expanded="true" signature="-1:-1" placeholder="select * fro..user_main..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="264" selection-end="264" vertical-scroll-proportion="0.52771616" vertical-offset="0" max-vertical-offset="902">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/connection.php">
+    <entry file="file://$PROJECT_DIR$/past/time_allocation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+        <state line="5" column="18" selection-start="113" selection-end="113" vertical-scroll-proportion="0.15748031" vertical-offset="0" max-vertical-offset="2268">
+          <folding>
+            <marker date="1419314409958" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+            <marker date="1419314409958" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+            <marker date="1419314409958" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+            <marker date="1419314409958" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+            <marker date="1419314409958" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+            <marker date="1419314409958" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+            <marker date="1419314409958" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/past/time_control.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="149" selection-start="193" selection-end="261" vertical-scroll-proportion="0.18625277" vertical-offset="0" max-vertical-offset="902">
+          <folding>
+            <marker date="1419301236211" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/avatar/1418378103778A.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/post/1418629493422P.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/children_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload_test.php">
+    <entry file="file://$PROJECT_DIR$/user/user_zone_school.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="84" selection-start="98" selection-end="98" vertical-scroll-proportion="0.062084258" vertical-offset="0" max-vertical-offset="902">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/past/week_efficiency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.77952754" vertical-offset="175" max-vertical-offset="2072">
+        <state line="27" column="49" selection-start="1202" selection-end="1202" vertical-scroll-proportion="-18.967741" vertical-offset="168" max-vertical-offset="1176">
           <folding>
-            <marker date="1417410409566" expanded="true" signature="-1:-1" placeholder="select * fro..user_relation..." />
-            <marker date="1417410409566" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
-            <marker date="1417410409566" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
-            <marker date="1417410409566" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
-            <marker date="1417410409566" expanded="true" signature="-1:-1" placeholder="select * fro..task_main..." />
+            <marker date="1419315211513" expanded="true" signature="183:295" placeholder="select * fro..task_main..." />
+            <marker date="1419315211513" expanded="true" signature="609:730" placeholder="select * fro..task_main..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/upload_dir.php">
+    <entry file="file://$PROJECT_DIR$/past/my_growth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="115" selection-end="115" vertical-scroll-proportion="0.09312639" vertical-offset="0" max-vertical-offset="902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/get_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.15521064" vertical-offset="0" max-vertical-offset="902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/task_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="204" selection-end="204" vertical-scroll-proportion="0.18110237" vertical-offset="35" max-vertical-offset="924">
+        <state line="23" column="5" selection-start="890" selection-end="890" vertical-scroll-proportion="1.0989761" vertical-offset="0" max-vertical-offset="980">
           <folding>
-            <marker date="1417162699081" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1417162699081" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1417162699081" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/post/1417414659@P.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/post/1417414658@P.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/post/1417414835@P.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/space/space_post_add2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="93" selection-start="370" selection-end="370" vertical-scroll-proportion="-9.935484" vertical-offset="0" max-vertical-offset="644">
-          <folding>
-            <marker date="1417415138066" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/space/space_post_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="57" selection-start="626" selection-end="626" vertical-scroll-proportion="0.5898004" vertical-offset="0" max-vertical-offset="902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/space/space_post_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="320" selection-end="320" vertical-scroll-proportion="-9.935484" vertical-offset="0" max-vertical-offset="588">
-          <folding>
-            <marker date="1417416503679" expanded="true" signature="133:172" placeholder="select * fro..space_post..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/post/1417414731@P.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/post/1417414404@P.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/task_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.7760532" vertical-offset="0" max-vertical-offset="1148">
-          <folding>
-            <marker date="1417157408138" expanded="true" signature="254:299" placeholder="select * fro..user_relation..." />
-            <marker date="1417157408138" expanded="true" signature="476:564" placeholder="select * fro..task_main..." />
-            <marker date="1417157408138" expanded="true" signature="772:858" placeholder="select * fro..task_main..." />
+            <marker date="1419317429125" expanded="true" signature="183:295" placeholder="select * fro..task_main..." />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,5 @@
 <?php
-require "../include/connection.php";
+require "../include/conn.php";
 
-$sql = "select distinct pid,province from city_list";
-$rs = $db->query($sql);
-$rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
-
-$return_arr = $rs_arr;
-
+$return_arr = $d2b->select("province_list","*");
 include "../include/return_data.php";

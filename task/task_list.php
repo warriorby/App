@@ -1,35 +1,19 @@
 <?php
-require("../include/connection.php");
+require("../include/conn.php");
 require("../include/get_data.php");
 
-	$uid = $arr['uid'];
-	$role = $arr['role'];
+$uid = $arr['uid'];
+$role = $arr['role'];
+if (isset($uid) && isset($role)) {
+    $sql = "select * from task_main a left join task_profile b on a.name_type_id=b.name_type_id where a.uid=$uid and a.role=1 and date(FROM_UNIXTIME(a.start_time)) = curdate() order by a.start_time desc";
+    $rs = $d2b->query($sql);
+    $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
 
-	$return_arr = array();
-	if($uid != null && $role != null){
-        switch($role){
-            case 1:
-                $sql3 = "select * from user_relation where to_uid=$uid";
-                $rs3 = $db->query($sql3);
-                $rs3_arr = $rs3->fetchAll(PDO::FETCH_ASSOC);
-                $uid_c = $rs3_arr[0]['uid_c'];
-                $sql = "select * from task_main where uid=$uid_c and date(FROM_UNIXTIME(start_time)) = curdate()";
-                $rs = $db->query($sql);
-                $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
-                $return_arr = $rs_arr;
-                break;
-            case 2:
-                $sql = "select * from task_main where uid=$uid and date(FROM_UNIXTIME(start_time)) = curdate()";
-                $rs = $db->query($sql);
-                $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
-                $return_arr = $rs_arr;
-                break;
-            default:
-                echo json_encode(0);
-                break;
-        }
-
-        include("../include/return_data.php");
-	}else{
-        echo json_encode(0);
-	}
+    $sql = "select * from task_main a left join task_profile b on a.name_type_id=b.name_type_id where a.uid=$uid and a.role=2 and date(FROM_UNIXTIME(a.start_time)) = curdate() order by a.start_time desc";
+    $rs2 = $d2b->query($sql);
+    $rs2_arr = $rs2->fetchAll(PDO::FETCH_ASSOC);
+    $return_arr = array_merge($rs_arr,$rs2_arr);
+    include("../include/return_data.php");
+} else {
+    echo json_encode(0);
+}

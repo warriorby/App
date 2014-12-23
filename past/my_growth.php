@@ -1,62 +1,27 @@
 <?php
-require "../include/connection.php";
-include "../include/get_data.php";
+require "../include/conn.php";
+require "../include/get_data.php";
 
 $uid = $arr['uid'];
-$role = $arr['role'];
-$sub_arr= array();
-if ($uid != null && $role != null) {
-    switch ($role) {
-        case 1:
-            $sql3 = "select * from user_relation where to_uid=$uid";
-            $rs3 = $db->query($sql3);
-            $rs3_arr = $rs3->fetchAll(PDO::FETCH_ASSOC);
-            $uid_c = $rs3_arr[0]['uid_c'];
-
-            $sql2 = "select * from task_main where uid=$uid_c and status=3 and DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(FROM_UNIXTIME(end_time))";
-            $rs2 = $db->query($sql2);
-            $rs2_arr = $rs2->fetchAll(PDO::FETCH_ASSOC);
-            foreach ($rs2_arr as $row) {
-                $end_time = $row['end_time'];
-                $sql = "select * from task_main where uid=$uid_c and status=3 and date(FROM_UNIXTIME(end_time)) = date(FROM_UNIXTIME($end_time))";
-                $rs = $db->query($sql);
-                $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
-                $plan_time_total = 0;
-                $real_time_total = 0;
-                foreach ($rs_arr as $key => $value) {
-                    $plan_time_total += $value['plan_time'];
-                    $real_time_total += $value['real_time'];
-                }
-                $week_day = date("w", $end_time);
-                $day_arr = ["uid" => $uid_c, "plan_time_total" => $plan_time_total, "real_time_total" => $real_time_total, "weekday" => $week_day];
-                $sub_arr[] = $day_arr;
-            }
-            break;
-        case 2:
-            $sql2 = "select * from task_main where uid=$uid and status=3 and DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(FROM_UNIXTIME(end_time))";
-            $rs2 = $db->query($sql2);
-            $rs2_arr = $rs2->fetchAll(PDO::FETCH_ASSOC);
-            foreach ($rs2_arr as $row) {
-                $end_time = $row['end_time'];
-                $sql = "select * from task_main where uid=$uid and status=3 and date(FROM_UNIXTIME(end_time)) = date(FROM_UNIXTIME($end_time))";
-                $rs = $db->query($sql);
-                $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
-                $plan_time_total = 0;
-                $real_time_total = 0;
-                foreach ($rs_arr as $key => $value) {
-                    $plan_time_total += $value['plan_time'];
-                    $real_time_total += $value['real_time'];
-                }
-                $week_day = date("w", $end_time);
-                $day_arr = ["uid" => $uid, "plan_time_total" => $plan_time_total, "real_time_total" => $real_time_total, "weekday" => $week_day];
-                $sub_arr[] = $day_arr;
-            }
-            break;
-        default:
-            echo json_encode(0);
-            break;
+$sub_arr = array();
+if (isset($uid)) {
+    for ($d = 30; $d >= 1; $d--) {
+        $sql = "select * from task_main where uid=$uid and task_status=3 and TO_DAYS(NOW())-TO_DAYS(FROM_UNIXTIME(end_time)) =$d";
+        $rs = $d2b->query($sql);
+        $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
+        if(count($rs_arr)>0){
+        $end_time = $rs_arr[0]['end_time'];
+        $plan_time_total = 0;
+        $real_time_total = 0;
+        foreach ($rs_arr as $key => $value) {
+            $plan_time_total += $value['plan_time'];
+            $real_time_total += $value['cost_time'];
+        }
+        $grow_per = round($real_time_total / $plan_time_total, 2)*100;
+        $dateTime = date("Y-m-d",$end_time);
+        $sub_arr[] = ["uid" => $uid, "grow_per" => $grow_per,"date"=>$dateTime];
+        }
     }
-
     $return_arr = $sub_arr;
     include "../include/return_data.php";
 } else {

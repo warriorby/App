@@ -1,16 +1,13 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/connection.php");
+require("../include/get_data.php");
 
 $uid = $arr['uid'];
-
-if ($uid) {
-    $sql = "update user_main set status = 0 where uid=$uid";
-    $db->exec($sql);
-
+if (isset($uid)) {
+    $d2b->update("user_main",["status"=>0],["uid"=>$uid]);
     $return_arr = array("uid" => $uid);
 
-    include_once("../include/return_data.php");
+    include("../include/return_data.php");
 } else {
     echo 0;
 }

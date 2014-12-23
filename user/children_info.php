@@ -1,38 +1,23 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
-include "../include/upload_dir.php";
+require("../include/conn.php");
+require("../include/get_data.php");
 
 $uid = $arr['uid'];
-$get_posts = $arr['posts'];
-$get_expers = $arr['expers'];
 
-if ($uid != null) {
-    $sql = "select * from user_avatar where uid=$uid";
-    $sql2 = "select * from user_profile where uid=$uid";
-    $sql3 = "select * from space_profile where uid=$uid";
-
-    $rs = $db->query($sql);
-    $rs_arr = $rs->fetchAll(PDO::FETCH_ASSOC);
+if (isset($uid)) {
+    $rs_arr = $d2b->select("user_avatar", ["avatar"], ["uid" => $uid]);
     $avatar = $rs_arr[0]['avatar'];
-    $avatar_url = $avatar_upload.$avatar;
 
-    $rs2 = $db->query($sql2);
-    $rs_arr2 = $rs2->fetchAll(PDO::FETCH_ASSOC);
+    $rs_arr2 = $d2b->select("user_profile", ["real_name"], ["uid" => $uid]);
     $real_name = $rs_arr2[0]['real_name'];
-    $cid = $rs_arr2[0]['cid'];
-    $sid = $rs_arr2[0]['sid'];
-    $gid = $rs_arr2[0]['gid'];
-    $classid = $rs_arr2[0]['classid'];
 
-    $rs3 = $db->query($sql3);
-    $rs_arr3 = $rs3->fetchAll(PDO::FETCH_ASSOC);
-    $return_posts = count($rs_arr3[0]['post_url']);
-    $return_expers = count($rs_arr3[0]['exper_content']);
+    $rs_arr3 = $d2b->select("user_profile", ["sid", "gid", "class_id"], ["uid" => $uid]);
+    $sid = $rs_arr3[0]['sid'];
+    $gid = $rs_arr3[0]['gid'];
+    $classid = $rs_arr3[0]['class_id'];
 
-    $return_arr =array("uid" => $uid, "posts" => $return_posts, "expers" => $return_expers, "avatar_url" => $avatar_url, "real_name_c" => $real_name, "cid" => $cid, "sid" => $sid, "gid" => $gid, "classid" => $classid);
-
-    include_once("../include/return_data.php");
+    $return_arr = array("uid" => $uid, "avatar" => $avatar, "real_name" => $real_name, "sid" => $sid, "gid" => $gid, "class_id" => $classid);
+    include("../include/return_data.php");
 } else {
-    echo 0;
+    echo json_encode(0);
 }

@@ -1,6 +1,6 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/conn.php");
+require("../include/get_data.php");
 
 $uid = $arr['uid'];
 $sub_id = $arr['sub_id'];
@@ -9,15 +9,13 @@ $average = $arr['average'];
 $total = $arr['total'];
 $exam_date = $arr['exam_date'];
 
-if (isset($uid)) {
-    //echo $exam_date;
-    $sql = "insert into score_main(sub_id,uid,score,average,total,exam_date) values ($sub_id,$uid,$score,$average,$total,'$exam_date')";
-    $db->exec($sql);
-    $score_id = $db->lastInsertId();
-    $return_arr = ["uid" => $uid, "score_id" => $score_id,"sub_id"=>$sub_id,"score"=>$score,"average"=>$average,"total"=>$total,"exam_data"=>$exam_date];
-
-    include_once("../include/return_data.php");
+if (isset($uid) && isset($score) && isset($sub_id) && isset($average) && isset($total) && isset($exam_date)) {
+    $timestamp = time();
+    $score_id = $d2b->insert("score_main",["sub_id"=>$sub_id,"uid"=>$uid,"score"=>$score,"average"=>$average,"total"=>$total,"exam_date"=>$exam_date,
+    "updated"=>$timestamp]);
+    $return_arr = ["uid" => $uid, "score_id" => $score_id,"sub_id"=>$sub_id,"score"=>$score,"average"=>$average,"total"=>$total,"exam_data"=>$exam_date,
+                    "updated"=>$timestamp];
+    include("../include/return_data.php");
 } else {
     echo json_encode(0);
 }
-?>

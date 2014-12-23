@@ -1,6 +1,6 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/connection.php");
+require("../include/get_data.php");
 
 	$tid = $arr["tid"];
 	$uid = $arr["uid"];
@@ -12,7 +12,7 @@ include_once("../include/get_data.php");
 
 		$return_arr = array("uid"=>$uid, "tid"=>$tid);
 
-        include_once("../include/return_data.php");
+        include("../include/return_data.php");
 	}else{
         echo json_encode(0);
 	}

@@ -1,21 +1,25 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/conn.php");
+require("../include/get_data.php");
 
-	$tid = $arr['tid'];
-	$uid = $arr['uid'];
+$tid = $arr['tid'];
+$uid = $arr['uid'];
 
-	if($tid != null && $uid != null){
-		$sql = "delete from task_main where tid=$tid and uid=$uid";
-		$db->exec($sql);
+if (isset($tid) && isset($uid)) {
+    $d2b->delete("task_main", ["AND" => [
+        "tid" => $tid, "uid" => $uid
+    ]
+    ]);
 
-		$sql2 = "delete from task_log where tid=$tid and uid=$uid";
-		$db->exec($sql2);
+    $d2b->delete("task_log", ["AND" => [
+        "tid" => $tid, "uid" => $uid
+    ]
+    ]);
 
-        $return_arr = array("uid"=>$uid);
-        include_once("../include/return_data.php");
-	}else{
-		echo 0;
-	}
+    $return_arr = array("uid" => $uid);
+    include("../include/return_data.php");
+} else {
+    echo json_encode(0);
+}
 
 

@@ -1,20 +1,16 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/conn.php");
+require("../include/get_data.php");
 
 $uid = $arr['uid'];
 $position_x = $arr['position_x'];
 $position_y = $arr['position_y'];
 
-if ($uid != null && $position_x != null && $position_y != null) {
-    $timestamp = mktime();
-    $sql2 = "update user_location_log set position_y=$position_y, position_x=$position_x, updated=$timestamp where uid=$uid ";
-
-    $db->exec($sql2);
-
+if (isset($uid) && isset($position_x) && isset($position_y)) {
+    $timestamp = time();
+    $d2b->update("user_location_log",["position_y"=>$position_y,"position_x"=>$position_x,"updated"=>$timestamp],["uid"=>$uid]);
     $return_arr = array("uid" => $uid);
-
-    include_once("../include/return_data.php");
+    include("../include/return_data.php");
 } else {
     echo json_encode(0);
 }

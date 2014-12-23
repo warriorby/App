@@ -1,27 +1,23 @@
 <?php
-require("../include/connection.php");
+require("../include/conn.php");
 require("../include/get_data.php");
 
-$task_type = $arr['task_type'];
-$task = $arr['task_name'];
+$name_type_id = $arr['name_type_id'];
 $plan_time = $arr['plan_time'];
 $is_remind = $arr['needRemind'];
 $photo_status = $arr['needPhoto'];
 $uid = $arr['uid'];
-//$plan_start_time = $arr['plan_startTime'];
+$role = $arr['role'];
+if (isset($uid) && isset($name_type_id)) {
+    $timestamp = time();
+    $tid = $d2b->insert("task_main", ["uid" => $uid, "name_type_id" => $name_type_id, "plan_time" => $plan_time, "needRemind" => $is_remind,
+        "add_time" => $timestamp, "needPhoto" => $photo_status, "task_status" => 1,"role"=>$role]);
 
-
-if (count($arr) != 0) {
-    $timestamp = mktime();
-    $db->exec("insert into task_main(uid,tname,task_type,plan_time,is_remind,add_time,photo_status,status) values ($uid,'$task',$task_type,$plan_time,$is_remind,$timestamp,$photo_status,1)");
-   // $db->exec("insert into task_main(uid,plan_time,is_remind,add_time,plan_start_time,photo_status,status) values ($uid,$plan_time,$is_remind,$timestamp,$plan_start_time,$photo_status,1)");
-
-    $tid = $db->lastInsertId();
-    $db->exec("insert into task_profile(tname,task_type) values ('$task',$task_type)");
-    $db->exec("insert into task_log(uid,tid,descr,updated) values ($uid,$tid,'添加任务',$timestamp)");
+    $d2b->insert("task_picture",["tid"=>$tid,"uid"=>$uid,"updated"=>$timestamp,"role"=>$role]);
+    $d2b->insert("task_log",["tid"=>$tid,"uid"=>$uid,"descr"=>"添加任务","updated"=>$timestamp,"role"=>$role]);
 
     $return_arr = array("uid" => $uid, "tid" => $tid);
     include("../include/return_data.php");
-}else{
+} else {
     echo json_encode(0);
 }

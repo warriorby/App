@@ -1,21 +1,26 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/conn.php");
+require("../include/get_data.php");
 
 $tid = $arr['tid'];
 $uid = $arr['uid'];
+$name_type_id = $arr['name_type_id'];
+$plan_time = $arr['plan_time'];
+$is_remind = $arr['needRemind'];
+$photo_status = $arr['needPhoto'];
+$add_time = $arr['end_time'];
 
-if ($tid != null && $uid != null) {
-    $timestamp = mktime();
-    $sql = "update task_main set status=2, giveup_time=$timestamp where tid=$tid and uid=$uid";
-    $db->exec($sql);
+if (isset($tid) && isset($uid)) {
+    $d2b->update("task_main",["task_status"=>1,"start_time"=>0,"rest_time"=>0,"cost_time"=>0,"end_time"=>0],["tid"=>$tid]);
+    $d2b->update("task_picture",["picture_start"=>null,"picture_end"=>null],["AND"=>["tid"=>$tid,"uid"=>$uid]]);
+    $d2b->delete("task_log",["AND"=>["tid"=>$tid,"uid"=>$uid]]);
 
-    $sql2 = "delete from task_log where tid=$tid and uid=$uid";
-    $db->exec($sql2);
+    $tid1 = $d2b->insert("task_main",["uid"=>$uid,"name_type_id"=>$name_type_id,"plan_time"=>$plan_time,"needRemind"=>$is_remind,"add_time"=>$add_time,
+    "needPhoto"=>$photo_status,"task_status"=>4]);
 
-    $return_arr = array("uid" => $uid, "tid" => $tid);
-    include_once("../include/return_data.php");
+    $return_arr = array("uid" => $uid, "tid" => $tid1);
+    include("../include/return_data.php");
 } else {
-    echo 0;
+    echo json_encode(0);
 }
 

@@ -1,17 +1,15 @@
 <?php
-require("../include/connection.php");
+require("../include/conn.php");
 require("../include/get_data.php");
-require "../include/upload_dir.php";
 
 $uid = $arr['uid'];
-$post_name = $arr['post_name'];
-
-if($uid != null && $post_name != null){
-    //$post_name = substr($post_url,16);
+$post_name = $arr['post'];
+if(isset($uid) && isset($post_name)){
     $timestamp = time();
-    $sql2 = "insert into space_post(uid,post,updated) values ($uid,'$post_name',$timestamp)";
-    $db->exec($sql2);
+    $pid = $d2b->insert("space_post",["uid"=>$uid,"post"=>$post_name,"updated"=>$timestamp]);
 
-    $return_arr = ['uid'=>$uid,"post_name"=>$post_name];
+    $return_arr = ['uid'=>$uid,"post"=>$post_name,"pid"=>$pid];
     include "../include/return_data.php";
+}else{
+    echo json_encode(0);
 }

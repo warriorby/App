@@ -1,31 +1,28 @@
 <?php
-require_once("../include/connection.php");
-include_once("../include/get_data.php");
+require("../include/conn.php");
+require("../include/get_data.php");
 
 $uid = $arr['uid'];
 $role = $arr['role'];
 $type = $arr['balance_type']; //0:30/月；1:168/半年；2:298/一年
 
-if ($uid != null && $role != null && $type != null) {
+if (isset($uid) && isset($role) && isset($type)) {
     switch ($type) {
         case 1:
-            $sql = "update user_main set balance=balance+30 where uid = $uid and role=$role";
-            $db->exec($sql);
+            $d2b->update("user_main",["balance[+]"=>30],["uid"=>$uid],["role"=>$role]);
             break;
         case 2:
-            $sql2 = "update user_main set balance=balance+168 where uid=$uid and role=$role";
-            $db->exec($sql2);
+            $d2b->update("user_main",["balance[+]"=>168],["uid"=>$uid],["role"=>$role]);
             break;
         case 3:
-            $sql3 = "update user_main set balance=balance+298 where uid=$uid and role=$role";
-            $db->exec($sql3);
+            $d2b->update("user_main",["balance[+]"=>298],["uid"=>$uid],["role"=>$role]);
             break;
         default:
             echo json_encode(0);
             break;
     }
     $return_arr = array("uid" => $uid, "role" => $role);
-    include_once("../include/return_data.php");
+    include("../include/return_data.php");
 } else {
     echo json_encode(0);
 }

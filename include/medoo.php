@@ -5,10 +5,13 @@
 class medoo
 {
     protected $database_type = 'mysql';
+
     // For MySQL, MariaDB, MSSQL, Sybase, PostgreSQL, Oracle
     protected $server = 'localhost';
-    protected $username = 'root';
-    protected $password = '123456';
+
+    protected $username = 'username';
+
+    protected $password = 'password';
 
     // For SQLite
     protected $database_file = '';
@@ -16,7 +19,7 @@ class medoo
     // Optional
     protected $port = 3306;
     protected $charset = 'utf8';
-    protected $database_name = 'demo2';
+    protected $database_name = '';
     protected $option = array();
 
     protected $queryString;
@@ -78,14 +81,12 @@ class medoo
         }
     }
 
-    //query
     public function query($query)
     {
         $this->queryString = $query;
         return $this->pdo->query($query);
     }
 
-    //exec
     public function exec($query)
     {
         $this->queryString = $query;
